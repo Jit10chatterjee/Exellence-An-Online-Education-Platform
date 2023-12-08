@@ -48,7 +48,7 @@ body {
 }
 
 /*loader section start*/
-.loader .loader-container {
+/* .loader .loader-container {
     position: fixed;
     top: 0;
     left: 0;
@@ -69,7 +69,7 @@ body {
 .loader-container.fade-out {
     top: 110%;
     opacity: 0;
-}
+} */
 
 /*loader section end*/
 
