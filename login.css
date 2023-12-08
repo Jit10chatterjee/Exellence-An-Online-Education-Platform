@@ -17,7 +17,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 94vh;
-    background: linear-gradient(rgba(181, 242, 212, 0.555), rgba(184, 252, 209, 0.8)), url(images/bg-img.jpg)no-repeat;
+    background: linear-gradient(rgba(181, 242, 212, 0.555), rgba(184, 252, 209, 0.8)), url(/images/bg-img.jpg)no-repeat;
     background-size: cover;
     background-position: center;
     overflow-x: hidden;
