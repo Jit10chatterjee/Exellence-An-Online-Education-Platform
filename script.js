@@ -7,6 +7,14 @@ $(document).ready(function () {
         $('.fa-caret-down').toggleClass('fa-caret-up');
         $('.sublist').toggle('sublist');
     });
+    $('.create-acc').click(function () {
+        $('.signin').hide('signup');
+        $('.signup').show('signup');
+    });
+    $('.log-back').click(function () {
+        $('.signup').hide('signup');
+        $('.signin').show('signup');
+    });
     // $('html').(function () {
     //     $('.sublist').hide('sublist');
     // })

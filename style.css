@@ -3,8 +3,6 @@
 :root {
     --green: #097969;
     --light-green: #2BDDAA;
-
-
 }
 
 * {
@@ -30,11 +28,11 @@ html {
 
 body {
     background: #C5DAD4;
-    height: 3000px;
+    /* height: 3000px; */
 }
 
 .heading {
-    font-size: 4rem;
+    font-size: 5rem;
     color: var(--green);
     text-align: center;
     padding: 0 1rem;
@@ -43,18 +41,13 @@ body {
 
 .title {
     padding: 0 1rem;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     font-weight: 400;
     color: #000;
 }
 
 /*loader section start*/
-/* .loader {
-    width: 100%;
-    height: 100vh;
-} */
-
 .loader .loader-container {
     position: fixed;
     top: 0;
@@ -79,6 +72,7 @@ body {
 }
 
 /*loader section end*/
+
 
 header {
     width: 96%;
@@ -162,6 +156,7 @@ header .logo {
 header .logo i {
     color: var(--green);
     padding: 0.2rem;
+    transition: 0.5s;
 }
 
 header .fa-bars {
@@ -669,7 +664,6 @@ textarea:focus {
 }
 
 
-
 /* mnedia queries */
 @media(max-width:768px) {
     html {
@@ -773,4 +767,14 @@ textarea:focus {
         padding: 0;
         padding-top: 1rem;
     }
+}
+
+@media(max-width:370px) {
+
+    .box-container .box span,
+    .stars,
+    .box-container .box button {
+        margin: 0;
+    }
+
 }

@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Serif+Display&family=Great+Vibes&family=Noto+Serif:wght@300&family=Oswald&family=Playball&family=Playfair+Display:wght@400;500&family=Roboto:wght@300&family=Young+Serif&display=swap');
+
+:root {
+    --green: #097969;
+    --light-green: #2BDDAA;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 94vh;
+    background: linear-gradient(rgba(181, 242, 212, 0.555), rgba(184, 252, 209, 0.8)), url(/images/bg-img.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+}
+
+.heading {
+    font-size: 3rem;
+    color: var(--green);
+    text-align: center;
+    padding: 0 1rem;
+    padding-top: 0rem;
+}
+
+.title {
+    padding: 0 1rem;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+    color: #000;
+}
+
+
+/*login section start*/
+.login {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    top: 3rem;
+    position: relative;
+}
+
+.login .login-container {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.login .login-container .login-content {
+    display: flex;
+    /* width: 60%; */
+    justify-content: center;
+    align-items: center;
+}
+
+.login .login-container .login-content .login-form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+.login .login-container .login-content .login-form form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.login .login-container .login-content .login-form form label {
+    font-size: 1.6rem;
+    margin: 1.6rem 0;
+    color: var(--green);
+    text-transform: capitalize;
+}
+
+.login .login-container .login-content .login-form form label i {
+    letter-spacing: 0.3rem;
+}
+
+.login .login-container .login-content .login-form form input {
+    width: 24rem;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 0.5rem;
+    color: var(--light-green);
+}
+
+.login .login-container .login-content .login-form form input:focus {
+    outline: none;
+    border: 0.2rem solid var(--light-green);
+    transform: scale(105%);
+}
+
+.login .login-container .login-content .login-form form .forget-msg {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    text-align: end;
+    color: red;
+}
+
+.login .login-container .login-content .login-form form input[type="submit"] {
+    color: #fff;
+    background: var(--green);
+    font-size: 1.4rem;
+}
+
+.login .login-container .login-content .login-form form input[type="submit"]:hover {
+    border: 0.2rem solid var(--light-green);
+    background: none;
+    color: var(--light-green);
+    cursor: pointer;
+    transform: scale(105%);
+    transition: 0.2s;
+}
+
+.login .login-container .login-content .login-form form p {
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.login .login-container .login-content .login-form form p span {
+    color: var(--light-green);
+    text-transform: capitalize;
+}
+
+.login .login-container .login-content .login-form form .select-log {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .login-container .login-content .login-form form .select-log div {
+    width: 6rem;
+    border: 0.1rem solid #b5b5b5;
+}
+
+.login .login-container .login-content .login-form form .select-log a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding: 1rem 0.5rem;
+    color: #5a5959;
+}
+
+.login .login-container .login-content .login-form form .button-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .login-container .login-content .login-form form .button-box a {
+    width: 6rem;
+    padding: 0.5rem 1rem;
+    margin: 0 1rem;
+    background: #f9f6f6;
+    border: 0.1rem solid #aba7a7;
+    text-decoration: none;
+    color: var(--green);
+    display: flex;
+    justify-content: center;
+}
+
+.login .login-container .login-content .login-form form .button-box a i {
+    font-size: 1.5rem;
+}
+
+.login .login-container .login-content .login-form form .check-box {
+    margin: 1rem 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.login .login-container .login-content .login-form form .check-box p {
+    font-size: 1.2rem;
+    text-wrap: wrap;
+    padding: 0;
+    text-align: center;
+}
+
+.login .login-container .login-content .login-form form .check-box p span {
+    color: red;
+}
+
+.login .login-container .login-content .login-form form .check-box p input[type="checkbox"] {
+    background: none;
+    padding: 1rem;
+    width: 1rem;
+}
+
+.login .login-container .login-content .login-form form .log-back {
+    margin: 1rem 0;
+    color: var(--green);
+}
+
+#login2 {
+    display: none;
+}
+
+/*login section end*/
+
+/* media queries*/
+@media(max-width:488px) {
+    /* .login .login-container .login-content {
+        margin: 0 9rem;
+    } */
+
+    .heading,
+    .title {
+        font-size: 0.6rem;
+    }
+
+    .login .login-container .login-content .login-form {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        position: relative;
+        padding: 0.6rem;
+        border-radius: 0.2rem;
+    }
+
+    .login .login-container .login-content .login-form form {
+        width: 10rem;
+        padding: 0;
+    }
+
+    .login .login-container .login-content .login-form form label {
+        margin: 1rem 0;
+        font-size: 0.6rem;
+        padding: 0;
+    }
+
+    .login .login-container .login-content .login-form form input {
+        width: fit-content;
+        font-size: 0.6rem;
+        padding: 0.6rem;
+    }
+
+    .login .login-container .login-content .login-form form input[type="submit"] {
+        font-size: 0.6rem;
+        width: fit-content;
+    }
+
+    .login .login-container .login-content .login-form form .forget-msg {
+        font-size: 0.6rem;
+        text-align: start;
+    }
+
+    .login .login-container .login-content .login-form form p {
+        font-size: 0.6rem;
+        text-align: start;
+        margin: 0.3rem 0;
+    }
+
+    .login .login-container .login-content .login-form form .select-log {
+        margin: 0.6rem;
+        padding: 0;
+        height: 0.6rem;
+        justify-content: flex-start;
+    }
+
+    .login .login-container .login-content .login-form form .select-log a {
+        font-size: 0.6rem;
+    }
+
+    .login .login-container .login-content .login-form form .select-log div {
+        width: 2rem;
+    }
+
+    .login .login-container .login-content .login-form form .button-box a {
+        width: 2rem;
+    }
+
+    .login .login-container .login-content .login-form form .button-box a i {
+        font-size: .5rem;
+    }
+
+    .login .login-container .login-content .login-form form .check-box p {
+        font-size: 0.6rem;
+    }
+}
