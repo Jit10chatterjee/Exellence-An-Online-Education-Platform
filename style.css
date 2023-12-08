@@ -47,33 +47,6 @@ body {
     color: #000;
 }
 
-/*loader section start*/
-/* .loader .loader-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 10000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    background: #C5DAD4;
-}
-
-.loader .loader-container img {
-    width: 15rem;
-}
-
-.loader-container.fade-out {
-    top: 110%;
-    opacity: 0;
-} */
-
-/*loader section end*/
-
-
 header {
     width: 96%;
     background: #fff;

@@ -218,9 +218,6 @@ body {
 
 /* media queries*/
 @media(max-width:488px) {
-    /* .login .login-container .login-content {
-        margin: 0 9rem;
-    } */
 
     .heading,
     .title {
