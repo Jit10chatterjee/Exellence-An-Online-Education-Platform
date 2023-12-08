@@ -371,10 +371,10 @@ header .login-box {
 }
 
 .box-container .box {
-    width: 38rem;
+    width: 40rem;
     background: #fff;
     padding: 1rem;
-    margin: 3rem 0.6rem;
+    margin: 3rem 3.6rem;
     transition: .2s;
     display: flex;
     flex-direction: column;
